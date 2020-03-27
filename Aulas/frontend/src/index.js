@@ -1,17 +1,11 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import * as serviceWorker from './serviceWorker';
+import React from 'react'; /* Importação do React */
+import ReactDOM from 'react-dom'; /* Importação da árvore de elementos (integração com o navegador) */
+import App from './App'; /* Importação do App.js dentro de uma váriavel App */
 
-ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
-);
+/**
+ * Aqui ocorre a renderização (apresentação em tela) do componente '<App />'
+ * Inserindo '<App />', que contém o '<h1>Semana OmniStack</h1>', dentro da '<div id="root"></div>'
+ * E assim o resultado desse processo é apresentado no dispositivo
+ */
 
-// If you want your app to work offline and load faster, you can change
-// unregister() to register() below. Note this comes with some pitfalls.
-// Learn more about service workers: https://bit.ly/CRA-PWA
-serviceWorker.unregister();
+ReactDOM.render(<App />, document.getElementById('root')); 
