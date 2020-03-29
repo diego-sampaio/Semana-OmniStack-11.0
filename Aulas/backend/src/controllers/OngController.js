@@ -1,4 +1,6 @@
-const crypto = require('crypto');
+//const crypto = require('crypto');
+
+const generateUniqueId = require('../utils/generateUniqueId');
 
 const connection = require('../database/connection');
 
@@ -13,7 +15,9 @@ module.exports = {
     //const data = request.body; /* A variável 'data' armazena todos os dados em um array */
     const { name, email, whatsapp, city, uf } = request.body; /* A {} desestrutura e armazena cada um dos dados em uma variável, assim facilita na manipulação dos dados */
 
-    const id = crypto.randomBytes(4).toString('HEX'); /* Gera 4 bytes de caracteres hexadecimais aleatórios */
+    //const id = crypto.randomBytes(4).toString('HEX');
+
+    const id = generateUniqueId(); /* Gera 4 bytes de caracteres hexadecimais aleatórios */
 
     await connection('ongs').insert({
       id,
