@@ -29,7 +29,6 @@ const routes = express.Router();
  * Request Body: Corpo da requisição, utilizado para criar ou alterar recursos. Ex.: ao enviar um JSON: { "name": Diego, "age": "31" }
  */
 
-
 //Caso de exemplo dos comentários acima:
 //app.get('/users', (request /* Guarda todos os dados que vem através da requisição do usuário */, response /* Retorna uma reposta para o usuário */) => {
 //  const params = request.query; /* Ex.: recupera os dados de 'name' e 'age' da 'query' da requisição: .../users?name=Diego&age=31 */
@@ -54,6 +53,7 @@ routes.post('/ongs', celebrate({
     uf: Joi.string().required().length(2),
   }),
 }), OngController.create);
+
 routes.get('/profile', celebrate({
   [Segments.HEADERS]: Joi.object({
     authorization: Joi.string().required(),
