@@ -37,6 +37,10 @@ A aplicação "Be The Hero", foi desenvolvida para demonstrar os recursos das li
 
 O layout foi cedido pela [Rocketseat](https://rocketseat.com.br/), disponível em: [Figma](https://www.figma.com/file/2C2yvw7jsCOGmaNUDftX9n/Be-The-Hero---OmniStack-11?node-id=0%3A1)
 
+<h2 align="center">:memo: Licença</h2>
+
+Esse projeto está sob a licença MIT. Veja o arquivo LICENSE.md para mais detalhes.
+
 ---
 
 Made by Diego Sampaio
