@@ -1,6 +1,6 @@
 import React from 'react'; /* Importação do React */
 import ReactDOM from 'react-dom'; /* Importação da árvore de elementos (integração com o navegador) */
-import App from './App'; /* Importação do App.js dentro de uma váriavel App */
+import App from './App'; /* Importação do 'App.js' dentro de uma váriavel 'App' */
 
 /**
  * Aqui ocorre a renderização (apresentação em tela) do componente '<App />'
