@@ -39,7 +39,7 @@ O layout foi cedido pela [Rocketseat](https://rocketseat.com.br/), disponível e
 
 <h2 align="center">:memo: Licença</h2>
 
-Esse projeto está sob a licença MIT. Veja o arquivo LICENSE.md para mais detalhes.
+Esse projeto está sob a licença MIT.
 
 ---
 
